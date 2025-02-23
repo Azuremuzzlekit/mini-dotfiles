@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cp -r .Xdefaults ~
+cp -r .vimrc ~
+cp -r .config/* ~/.config/
