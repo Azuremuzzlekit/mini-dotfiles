@@ -1,0 +1,61 @@
+* {
+    font:   "Monospace 10";
+    bg0:     #000000;
+    bg1:     #000888;
+    fg0:     #ffffff;
+    accent-color:     #ffffff;
+    urgent-color:     #000000;
+
+    background-color:   transparent;
+    text-color:         @fg0;
+
+    margin:     0;
+    padding:    0;
+    spacing:    0;
+}
+
+window {
+    location:           northeast;
+    width:              300;
+    background-color:   @bg0;
+    border:             3px;
+    border-color:       #ffffff;    
+}
+
+inputbar {
+    spacing:          5px;
+    padding:          5px;
+    background-color: @bg1;
+    border:           0 0 3px 0;
+    border-color:     #ffffff;
+}
+
+prompt, entry, element-icon, element-text { vertical-align: 0.5; }
+prompt                                    { text-color: @accent-color; }
+
+textbox {
+    padding:            5px;
+    background-color:   @bg1;
+}
+
+listview {
+    padding:      4px 0;
+    lines:        2;
+    columns:      2;
+    fixed-height: false;
+}
+
+element {
+    padding:    5px;
+    spacing:    5px;
+}
+
+element normal normal                            { text-color: @fg0; }
+element normal urgent                            { text-color: @urgent-color; }
+element normal active                            { text-color: @accent-color; }
+element alternate active                         { text-color: @accent-color; }
+element selected                                 { text-color: @bg0; }
+element selected normal, element selected active { background-color: @accent-color; }
+element selected urgent                          { background-color: @urgent-color; }
+element-icon                                     { size: 0.8em; }
+element-text                                     { text-color: inherit; }
