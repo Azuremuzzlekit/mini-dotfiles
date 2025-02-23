@@ -14,7 +14,8 @@
 
   ```bash
   git clone https://github.com/Ad4ndi/mini-dotfiles.git
-  ./mini-dotfiles/fast-cp
+  cd mini-dotfiles
+  ./fast-cp
   ```
 
 ## Screenshots:
