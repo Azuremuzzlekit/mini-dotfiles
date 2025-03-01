@@ -2,7 +2,7 @@ set $mod Mod4
 font pango:monospace 12
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-exec_always --no-startup-id xsetroot -solid "#140f3f"
+exec_always --no-startup-id xsetroot -solid "#202e20"
 
 exec --no-startup-id nm-applet
 
@@ -114,6 +114,6 @@ bindsym $mod+p exec maim -s | xclip -selection clipboard -t image/png
 exec polybar
 exec --no-startup-id setxkbmap -layout lv,ru -option grp:alt_shift_toggle
 
-client.focused          #ffffff #000888 #ffffff #ffffff #ffffff
-client.unfocused        #888888 #000444 #888888 #888888 #888888
-client.focused_inactive #888888 #000444 #888888 #888888 #888888
+client.focused          #3e663a #1e451b #bde3ba #3e663a #3e663a
+client.unfocused        #888888 #4d5c4c #888888 #888888 #888888
+client.focused_inactive #888888 #4d5c4c #888888 #888888 #888888
