@@ -21,4 +21,4 @@ Greened fork of https://github.com/Ad4ndi/mini-dotfiles
 
 ## Screenshots:
 
-![image](https://github.com/Azuremuzzlekit/images/blob/main/image.png)
+![Image](https://github.com/user-attachments/assets/8649e32e-a811-4509-92a5-901ad4b6aa5b)
