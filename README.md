@@ -1,4 +1,5 @@
 # Dotfiles for i3/polybar/rofi
+Greened fork of https://github.com/Ad4ndi/mini-dotfiles
 
 ### Dependencies:
 
