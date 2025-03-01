@@ -1,8 +1,8 @@
 xterm*faceName: Console
 xterm*faceSize: 10
-xterm*foreground: #ffffff
-xterm*background: #000000
-xterm*cursorColor: #ffffff
+xterm*foreground: #d6d6d6
+xterm*background: #0f0f0f
+xterm*cursorColor: #d6d6d6
 xterm*highlightColor: #555555
 xterm*scrollBar: false
 xterm*rightScrollBar: true 
