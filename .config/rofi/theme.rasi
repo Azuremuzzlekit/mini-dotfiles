@@ -1,10 +1,10 @@
 * {
     font:   "Monospace 10";
     bg0:     #000000;
-    bg1:     #000888;
+    bg1:     #14360e;
     fg0:     #ffffff;
-    accent-color:     #ffffff;
-    urgent-color:     #000000;
+    accent-color:     #f0f0f0;
+    urgent-color:     #cccccc;
 
     background-color:   transparent;
     text-color:         @fg0;
@@ -19,7 +19,7 @@ window {
     width:              300;
     background-color:   @bg0;
     border:             3px;
-    border-color:       #ffffff;    
+    border-color:       #cccccc;    
 }
 
 inputbar {
@@ -27,7 +27,7 @@ inputbar {
     padding:          5px;
     background-color: @bg1;
     border:           0 0 3px 0;
-    border-color:     #ffffff;
+    border-color:     #f0f0f0;
 }
 
 prompt, entry, element-icon, element-text { vertical-align: 0.5; }
