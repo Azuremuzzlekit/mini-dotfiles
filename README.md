@@ -13,7 +13,7 @@
 ## Installation:
 
   ```bash
-  git clone https://github.com/Ad4ndi/mini-dotfiles.git
+  git clone https://github.com/Azuremuzzet/mini-dotfiles.git
   cd mini-dotfiles
   ./fast-cp
   ```
